@@ -5,6 +5,16 @@
 //  Created by Kishore Kumar on 23/07/26.
 //
 /*
+ GIT TERMINOLOGY:
+ Push - send local commits to remote repo
+ Pull - Fetch remote commits to local repo
+ Clone - copying the local repo
+ Stage - prepare changes for commit(save)
+ Commit - creates a checkpoint on our current branch
+ Stash - save changes for later
+ 
+ 
+ 
  COMMIT MESSAGES
  
  NEW FEATURE:
