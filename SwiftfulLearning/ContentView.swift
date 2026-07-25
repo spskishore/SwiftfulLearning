@@ -10,14 +10,18 @@
  NEW FEATURE:
  [Feature]: description of the feature
  
- BUG IN PRODUCTION:
- [Patch]: description of the Patch
- 
  BUG NOT IN PRODUCTION:
  [Bug]: description of the Bug
  
  RELEASE:
  [Release]: description of the release
+ 
+ BUG IN PRODUCTION:
+ [Patch]: description of the Patch
+ 
+ MUNDANE TASKS:
+ [Clean]: description of the changes
+ 
 
 */
 
