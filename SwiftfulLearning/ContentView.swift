@@ -34,7 +34,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Swiftful Thinking")
-           
+           Text("Welcome Aboard")
         }
         .padding()
         //Rectangle()
