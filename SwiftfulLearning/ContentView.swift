@@ -30,7 +30,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "tree")
+            Image(systemName: "bell")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Swiftful Thinking")
