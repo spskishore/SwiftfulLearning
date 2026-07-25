@@ -15,6 +15,9 @@
  
  BUG NOT IN PRODUCTION:
  [Bug]: description of the Bug
+ 
+ RELEASE:
+ [Release]: description of the release
 
 */
 
