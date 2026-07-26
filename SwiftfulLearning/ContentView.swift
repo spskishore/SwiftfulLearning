@@ -16,7 +16,6 @@
  
  
  COMMIT MESSAGES
- 
  NEW FEATURE:
  [Feature]: description of the feature
  
@@ -39,16 +38,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "bell")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Swiftful Thinking")
-           Text("Subscribe Now - YT")
+        VStack(alignment: .center, spacing: 20) {
+            Text("Knock, knock!")
+                .padding()
+                .foregroundColor(Color.white)
+                .background(Color.black)
+                .cornerRadius(8)
+            Text("Who's there?")
+                .font(.title)
+                
         }
         .padding()
-        //Rectangle()
     }
+    
+  
+}
+
+
+#Preview {
+    ContentView()
 }
 
 #Preview {
