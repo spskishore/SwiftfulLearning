@@ -9,9 +9,19 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Welcome Home")
-        Button("Place Order") {
-            
+//        Text("Welcome Home")
+//        Button("Place Order") {
+//            
+//        }
+        Form {
+            Section {
+                Text("Hello, world!")
+            }
+
+            Section {
+                Text("Hello, world!")
+                Text("Hello, world!")
+            }
         }
     }
     

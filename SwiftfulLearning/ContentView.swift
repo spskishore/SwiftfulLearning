@@ -39,13 +39,19 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .center, spacing: 20) {
-            Text("Knock, knock!")
+            Text("Knock, knock!".uppercased())
                 .padding()
                 .foregroundColor(Color.white)
                 .background(Color.black)
                 .cornerRadius(8)
             Text("Who's there?")
                 .font(.title)
+                .foregroundStyle(Color.indigo)
+                .baselineOffset(20)
+            Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
+                .font(.system(size: 24, weight: .medium, design: .rounded))
+//                .font(.caption)
+//                .fontWeight(.semibold)
                 
         }
         .padding()
