@@ -5,6 +5,7 @@
 ### Xcode ###
 # Xcode user settings
 xcuserdata/
+.xcuserdata
 
 # Xcode project settings
 project.xcworkspace/
